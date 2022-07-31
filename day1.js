@@ -65,7 +65,7 @@ const variabe2 =`How are you today?`;
 const sentence = variabe1+' ' + variabe2;
 
 // console.log(sentence)
-hello
+
 
 
 /**
