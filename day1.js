@@ -76,7 +76,9 @@ const num1 = 31;
 const num2 = 5;
 const reminder = num1%num2
 
-console.log(reminder)
+// console.log(reminder)
+
+
 
 
 
