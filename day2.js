@@ -84,9 +84,34 @@ fruits.push('waterlemon') //output is [ 'apple', 'Mango', 'waterlemon' ]
         triangle is Isosceles or not using if-else.
         Isosceles => two sides are equal
 
-
-        
-
-
  * 
  */
+
+
+
+// print the leargest number within 3 numbers
+
+// declear 3 numbers
+
+var num1=2;
+var num2=2;
+var num3= 0;
+
+// make condition to checked leargest number 
+
+if (num1 > num2 && num1> num3) {
+
+    console.log(num1 + " " + "is greater")
+
+}else if(num2 > num1 && num2 > num3) {
+
+    console.log(num2 + " " + "is greater")
+
+
+}else if(num3 > num1 && num3 > num2) {
+
+    console.log(num3 + " " + "is greater")
+
+}else{
+    console.log('all are equel')
+}
