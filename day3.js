@@ -94,7 +94,7 @@ var avarage = sum/marks.length
 
 return avarage;
 }
-var avarage = make_avg([60,59,60])
+var avarage = make_avg([60,59,60,60,60,60,60,60,60,60,60,60,60,60])
 
 console.log(avarage)
 /**
