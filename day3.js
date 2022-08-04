@@ -76,14 +76,27 @@ the size of that array and return the average of those values.
  
 * 
 */
-function arr(){
-    console.log('hello')
+// var arr= [60,59,60]
+
+// var avarageMarks = 
+
+function make_avg(marks){
+
+    var sum = 0;
+    for(var i = 0;i<marks.length;i++){
+
+        sum = sum + marks[i]
+       
+        
 }
-
-arr()
-
+var avarage = sum/marks.length
 
 
+return avarage;
+}
+var avarage = make_avg([60,59,60])
+
+console.log(avarage)
 /**
 * 
 * ==========     === Practice Problem 3 === ==============
