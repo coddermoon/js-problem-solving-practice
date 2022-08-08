@@ -98,5 +98,13 @@ const num1 = 10;
 const num2 = 20;
 const num3 = 30;
 
+if (num1>num2 ) {
+
+    if (num1>num3) {
+        console.log(num1,'is largest number')
+    }
+    
+}
+
 // write condition to make decission 
 
