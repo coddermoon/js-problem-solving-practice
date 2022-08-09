@@ -100,19 +100,62 @@ const totalPeper = paperRequirements(book1, book2, book3)
  * 
  */
 
-const friends = ['abul','babul','sathi','alif','onik','akash','shaila','aziza','lima']
+const friends = ['abul','babul','sathi','alif','onik','akash','shaila','aziza','lima','shamima']
 
 function bestFriend(friends) {
 
-    const largestName = ''
+    let largestName = ''
 
     for (let i = 0; i < friends.length; i++) {
         const friend = friends[i];
-        console.log(friend.length)
+       
+if (largestName.length <friend.length) {
+    largestName = friend
+}
         
         
     }
+    return largestName
 
 }
 
 const bigName = bestFriend(friends)
+console.log('big name is',bigName)
+
+
+/**
+ * 
+ *  === probelm 5 ===
+ * 
+  ৫. এইটা একটু ট্রিকি হতে পারে। একটা array এর মধ্যে অনেকগুলা সংখ্যা থাকবে। তোমার কাজ হচ্ছে সংখ্যা গুলা একটার পর একটা করে চেক করা। এবং সংখ্যা গুলা যদি পজিটিভ সংখ্যা হয়। অর্থাৎ শূন্য বা শূন্যের চাইতে বড় হয় তাহলে সেগুলাকে কোন একটা array এর মধ্যে রাখবে। আর যদি নেগেটিভ সংখ্যা হয়। তাহলে লুপটা স্টপ করে দিবে। এবং লুপ বন্ধ করার আগ পর্যন্ত যতগুলা পজিটিভ সংখ্যা পাওয়া গেছে। সেগুলা রিটার্ন করে দিবে। 
+
+ * 
+ * 
+ */
+
+
+  const numbers = [10,20,30,2,5,-5,8,7,-2]
+
+  function returnPositive(numbers) {
+    let totalNumber = []
+    
+   for (let i = 0; i < numbers.length; i++) {
+
+    let number = numbers[i]
+    
+    if (number<0) {
+       break; 
+    }else{
+        totalNumber.push(number)
+    }
+    
+   }
+
+   console.log(totalNumber)
+
+  }
+
+  const newArray = returnPositive(numbers)
+
+
+  
